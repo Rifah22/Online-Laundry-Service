@@ -1,0 +1,141 @@
+ 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #45b9c2 0%, #4906a0 100%);
+}
+ 
+.center{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    transition: .5s;
+}
+.txt_field span:before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+    background: #2691d9;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+
+.loginButton{
+    
+        color:black;
+        background: blue;
+        cursor:pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    
+        width: 300px;
+        height: 40px;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(13, 235, 243);
+        text-decoration:none;
+        font-size: 20px;
+        overflow:hidden;
+        transition: 0.5s;
+    
+}
+.loginButton:hover{
+    color:black;
+    background:#01a50f;
+    box-shadow: 0 0 10px #82f1d6, 0 0 40px #78d5f1, 0 0 80px #01a50f;  
+
+}
+.userNotfound{
+    color: red;
+    text-align: center;
+    /* font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px; */
+}
+
+.forgot{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    text-align: center;
+}
+.forgot_p{
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    text-align: center;
+}
