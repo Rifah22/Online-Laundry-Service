@@ -1,0 +1,133 @@
+.cartbox {
+    width: 300px;
+    box-sizing: border-box;
+    height: 300px;
+   
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    display: block;
+    margin-top: 40px;
+    position: absolute;
+    right: 32px;
+    bottom: 100px;
+}
+
+.cartbox-child {
+    height: 200px;
+    overflow-y: scroll;
+}
+.main-content {
+    width: 100%;
+}
+.left-content {
+    width: 30%;
+    float: left;
+}
+.right-content {
+    width: 70%;
+    float: right;
+}
+
+.c-table-header {
+    background-color: #0479f6;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #FFF;
+    border-left: 4px solid rgb(27, 202, 0);
+ 
+}
+
+.c-table-tr td {
+    padding: 8px 16px;
+}
+
+.c-table-body {
+    background-color: rgb(229, 226, 226);
+    padding: 16px;
+
+}
+
+.c-table-body ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.c-table-body ul li {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgb(170, 168, 168);
+}
+
+.c-table-body ul li {
+    display: flex;
+}
+
+.c-table-body ul li div {
+    flex: 1;
+}
+
+.c-table-body ul li div:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+.c-table-body ul li div:first-child span {
+    margin-right: 42px;
+}
+
+.c-table-body ul li div:first-child input {
+    width: 50px;
+}
+
+.c-table {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.table-header {
+    background-color: #0479f6;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #FFF;
+    border-left: 4px solid rgb(27, 202, 0);
+   
+}
+
+.table-header > td {
+    padding: 4px 0px;
+}
+.lbox {
+    /* card shaow */
+    box-shadow: 0px 0px 6px rgb(193, 192, 192);
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lbox:hover {
+    cursor: pointer;
+}
+.block-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.box-image {
+    object-fit: cover; 
+border-radius: 4px;
+
+border: 1px solid #ccc;
+
+}
+            

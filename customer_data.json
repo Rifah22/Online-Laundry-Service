@@ -1,0 +1,70 @@
+[
+    {
+        "Full_name": "Rifat",
+        "User_name": "abc",
+        "Email": "mdrifat2103@gmail.com",
+        "Phone_number": "01798649656",
+        "Password": "test",
+        "Confrim_password": "test",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Alex",
+        "User_name": "abc1",
+        "Email": "abc@gmail.com",
+        "Phone_number": "01798649656",
+        "Password": "aS1!dfgh",
+        "Confrim_password": "aS1!dfgh",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Md. Rifat Hossen",
+        "User_name": "Rifat",
+        "Email": "mdrifat2103@gmail.com",
+        "Phone_number": "01798649656",
+        "Age": "2000-05-05",
+        "Password": "aS1!dfgh",
+        "Confrim_password": "aS1!dfgh",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Alan walker",
+        "User_name": "alan",
+        "Email": "alan@gmail.com",
+        "Phone_number": "01798649656",
+        "Age": "1996-12-30",
+        "Password": "123",
+        "Confrim_password": "aS1!dfgh",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Abul Azad",
+        "User_name": "Azad",
+        "Email": "azad@gmail.com",
+        "Phone_number": "01768971643",
+        "Age": "2012-03-01",
+        "Password": "Azad12345@",
+        "Confrim_password": "Azad12345@",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Rifat islam",
+        "User_name": "rifat123",
+        "Email": "mdrifat2103@gmail.com",
+        "Phone_number": "01798649656",
+        "Age": "2022-06-07",
+        "Password": "aS1!dfgh",
+        "Confrim_password": "aS1!dfgh",
+        "Gender": "Male"
+    },
+    {
+        "Full_name": "Rifat hossen",
+        "User_name": "rifat12",
+        "Email": "mdrifat2103@gmail.com",
+        "Phone_number": "01798649656",
+        "Age": "2019-02-20",
+        "Password": "aS1!dfgh",
+        "Confrim_password": "aS1!dfgh",
+        "Gender": "Male"
+    }
+]

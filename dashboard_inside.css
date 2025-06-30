@@ -1,0 +1,109 @@
+body {
+    background-color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-sidebar-container {
+    width: 16%;
+    float: left;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.right-content-container {
+    width: 84%;
+    float: right;
+    
+}
+
+.sidebar-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(40, 196, 47);
+}
+
+.sidebar-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.box-wrapper {
+    padding: 40px;
+}
+
+.box {
+    margin-bottom: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 40px;
+}
+.sidebar-button-group {
+    padding: 12px 24px;
+
+}
+
+.sidebar-button-group > a {
+    text-decoration: none;
+  
+   
+    font-weight: 600;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+    padding: 4px 8px;
+    margin-bottom: 16px;
+    padding: 8px 0px 8px 0px;
+
+    color:rgb(89, 89, 89);
+}   
+
+.sidebar-button-group > a:hover {
+    color:rgb(40, 196, 47);
+    border-bottom:1px solid rgb(40, 196, 47);
+}
+.exit-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8px;
+}
+.cart-h{
+    border-bottom: 1px solid #444; 
+    padding: 8px 0px;text-align: center;
+}
+.checkout-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin:12px;
+}
+
+
+
+#arrow {
+   width: 100%;
+   padding: 10px;
+    background-color: rgb(0, 255, 98);
+  
+  }
+
+  .perror{
+    margin-top: 10px;
+    margin-left: 50px;
+
+  }
